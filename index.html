@@ -343,7 +343,7 @@
     <footer class="grid gap-2">
       <!-- Recent Searches -->
       <section class="grid grid-cols-5 gap-4">
-        <div class="flex items-end p-4 bg-[--bg-200] rounded-lg">
+        <div class="flex items-end p-4 bg-[--bg-200] font-medium rounded-lg">
           <h2>Recent search</h2>
         </div>
 
@@ -457,12 +457,16 @@
 
       <!-- Mortgage Calculator -->
       <section class="grid grid-cols-5 gap-4">
-        <div>
+        <div
+          class="bg-[--orange-100] text-[--primary-100] font-medium flex items-end rounded-lg p-4"
+        >
           <h2>Mortgage Calculator</h2>
         </div>
 
         <div class="col-span-4 grid grid-cols-2 gap-4">
-          <form class="py-4 px-8 grid gap-4">
+          <form
+            class="py-4 px-8 grid gap-4 bg-[--accent-100] rounded-lg text-[--primary-100]"
+          >
             <h3>Mortgage Calculator</h3>
 
             <div>
@@ -479,10 +483,10 @@
 
             <div>
               <input type="text" id="loanTerm" name="loanTerm" />
-              <label for="loanTerm" class="text-xs">Term of loanAmount</label>
+              <label for="loanTerm" class="text-xs">Term of Loan</label>
             </div>
           </form>
-          <div class="py-4 px-8 flex flex-col gap-4">
+          <div class="py-4 px-8 flex flex-col gap-4 bg-[--primary-100]">
             <div>
               <h3>Est. Monthly Payment</h3>
               <p class="text-[--accent-100] text-xl">$2,460.00</p>

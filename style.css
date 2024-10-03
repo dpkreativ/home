@@ -1,6 +1,15 @@
+:root {
+  --bg-100: #0b282c;
+  --bg-200: #1d363a;
+  --bg-300: #3a585c;
+  --accent-100: #68fb91;
+  --orange-100: #feb068;
+  --primary-100: #074b54;
+}
+
 .tag {
   padding: 0.5rem 1rem;
-  background-color: gray;
+  background-color: var(--bg-300);
   border-radius: 0.5rem;
   display: inline-block;
   font-size: 0.5rem;
